@@ -43,8 +43,8 @@ import { Heading } from 'tiptap-extensions'
 
 const editor = new Editor({
   extensions: [
-    // The editor now supports `<h1>`, <h2>` and <h3>`.
-    // But not <h4>`, <h5>` or <h6>`.
+    // The editor now supports `<h1>`, `<h2>` and `<h3>`.
+    // But not `<h4>`, `<h5>` or `<h6>`.
     new Heading({
       levels: [1, 2, 3],
     }),
